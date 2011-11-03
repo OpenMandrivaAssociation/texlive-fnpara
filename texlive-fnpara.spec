@@ -1,3 +1,9 @@
+# revision 17273
+# category Package
+# catalog-ctan /macros/latex/contrib/fnpara
+# catalog-date 2010-03-09 13:05:51 +0100
+# catalog-license other-free
+# catalog-version undef
 Name:		texlive-fnpara
 Version:	20100309
 Release:	1
@@ -42,6 +48,7 @@ the manyfoot and bigfoot packages.
 %{_texmfdistdir}/tex/latex/fnpara/fnpara.sty
 %doc %{_texmfdistdir}/doc/latex/fnpara/fnpara-doc.pdf
 %doc %{_texmfdistdir}/doc/latex/fnpara/fnpara-doc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ the manyfoot and bigfoot packages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
