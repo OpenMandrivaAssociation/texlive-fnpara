@@ -1,16 +1,16 @@
-# revision 17273
+# revision 25607
 # category Package
 # catalog-ctan /macros/latex/contrib/fnpara
-# catalog-date 2010-03-09 13:05:51 +0100
-# catalog-license other-free
+# catalog-date 2012-03-11 01:08:16 +0100
+# catalog-license lppl1.3
 # catalog-version undef
 Name:		texlive-fnpara
-Version:	20100309
-Release:	2
+Version:	20120311
+Release:	1
 Summary:	Footnotes in paragraphs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fnpara
-License:	OTHER-FREE
+License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fnpara.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fnpara.doc.tar.xz
 BuildArch:	noarch
