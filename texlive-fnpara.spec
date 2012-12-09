@@ -49,3 +49,21 @@ the manyfoot and bigfoot packages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120311-1
++ Revision: 787613
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20100309-2
++ Revision: 752003
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20100309-1
++ Revision: 718473
+- texlive-fnpara
+- texlive-fnpara
+- texlive-fnpara
+- texlive-fnpara
+
