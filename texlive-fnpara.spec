@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-fnpara
 Version:	20120311
-Release:	6
+Release:	7
 Summary:	Footnotes in paragraphs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fnpara
