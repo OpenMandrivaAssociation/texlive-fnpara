@@ -3,7 +3,7 @@ Version:	25607
 Release:	2
 Summary:	Footnotes in paragraphs
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fnpara
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/fnpara
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fnpara.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fnpara.doc.r%{version}.tar.xz
